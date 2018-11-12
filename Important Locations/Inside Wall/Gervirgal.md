@@ -49,7 +49,7 @@
     * General sicknesses and minor curses: 1-3 weeks - 2 SP
     * Common Fey Issues: 1-3 weeks - 7 SP
     * Major curses and Sicknesses: 1 week making, 2+ months for 60% chance - 10 GP
-    * Major Fey Issues: 2 weeks making, 2-3 months for 70% chance - 10-100 GP
+    * Major Fey Issues: 2 weeks making, 2-3ca months for 70% chance - 10-100 GP
 * Shop Description:
 
 The shop is oddly shaped, walls and tower jut out from the building and while at one time they may have been a
