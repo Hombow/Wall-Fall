@@ -7,8 +7,10 @@
 
 ## Common Buildings
 * Lumber Mills
-*
+* Lower residential, almost no midleclass
 
 ## Special Buildings
 ### Gate
 * Focusses on transporting lumber
+
+
