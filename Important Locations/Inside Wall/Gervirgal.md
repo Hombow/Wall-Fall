@@ -44,7 +44,7 @@
 ### Clothier
 * Makes clothing for the town (tbh, not that interesting yet)
 
-### Healer
+### A gentle Healer
 * Local Healer
   * Has a variety of healing rememdies for different problems
     * General sicknesses and minor curses: 1-3 weeks - 2 SP
@@ -62,7 +62,7 @@ The shop is oddly shaped, walls and tower jut out from the building and while at
     * Defo bakes pies and stuff
 
 
-### Smithy
+### Athne Iron (Smith)
 * Can create small items for people but focuses on community needs over adventurers
   * Price Depends on what is needed: 1 - 20 SP
   * If the Party earns the trust as permanent residents then they will be able to request more obscure items
@@ -73,8 +73,13 @@ The shop is oddly shaped, walls and tower jut out from the building and while at
   * Very Motherly
   * Very Buff
   * Gets very worried when someone was hurt or was in trouble
+* Ifron Athne
+  * Can't smith
+  * Bakes a small amount
+  * Is very motherly as well
+  * Helps out the comunity and works a bit with Qinris
 
-### Magician
+### The Bleeding Ring (Magic Shop)
 * Can enchant items for a high cost and identify for a lot less, has a selection of items for sale
   * Identifying: 1 GP per item or 3 GP for 5 items
   * Enchantment Costs:
