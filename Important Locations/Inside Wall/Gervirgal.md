@@ -30,6 +30,7 @@
     * Checks any Bags
     * Checks Persons
     * Magic checks on the way back in for **Fey Material**
+  * Open Wed-Fri for industry Open Mon-Tues for Adventurers with permission
 * Main Guard - Berren Debril
   * Dwarf Fighter
   * Helpful
