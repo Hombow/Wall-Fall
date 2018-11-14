@@ -96,3 +96,12 @@ The shop is oddly shaped, walls and tower jut out from the building and while at
   * Rather Pompous and arrogant
   * Doesn't like non-spellcasters having magical items
   * 40% chance that they won't approve of an enchantment or item
+
+### Wall Repair shop
+  * Used to take care of the wall as it is a main gate
+  * Gemte Turen Scrufs
+    * Doesn't like people
+      * Especially Dwarves
+    * Can rush stuff sometimes
+    * Wizard
+      * School of the wall

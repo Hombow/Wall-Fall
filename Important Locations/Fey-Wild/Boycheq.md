@@ -19,9 +19,16 @@
 
 ### Berington Lumber Mill
 * The most popular Lumber Mill
-* Vauvith Logspliter Elanavea
+* Vauvith "Logspliter" Elanavea
   * Strong Boi
   * Very Level Headed
   * Used to be Fighter
     * Likes Adventurer's stories
-  
+
+### Wall Repair shop
+* Used to take care of the wall as it is more prone to damage than the main wall
+* Isappa Turen scratcher
+  * Very slow
+  * Faffs a lot
+  * Wizard
+    * School of the wall
