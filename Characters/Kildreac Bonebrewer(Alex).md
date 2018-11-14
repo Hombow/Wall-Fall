@@ -1,5 +1,6 @@
 # Kildreac Bonebrewer
 #### Dwarf, Fighter, Knight
+#### Age: 45
 ### Backstory:
   * Knight of ... (school) in ...(City Name)
     * Knights are not royalty
