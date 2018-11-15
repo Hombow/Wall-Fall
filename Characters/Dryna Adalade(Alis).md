@@ -1,5 +1,5 @@
 # Dryna Adalade
-#### Half Fey, Druid, Outlander
+#### Half Fey, Druid (circle of dreams), Outlander
 ### Backstory:
 * Fey Father, Elf Mother
 * Lived in Elf City
