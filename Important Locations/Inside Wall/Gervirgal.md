@@ -11,6 +11,19 @@
 
 ## Special Buildings
 ### Rhodes Home (Inn)
+* Medium size Inn
+* 10 rooms for people
+  * 4 taken by Team F
+* Has facilities that are too messy to used
+  * Stables?
+  * Basement
+    * currently is store for drinks but has loads of unused room
+  * Loft (small study + library)
+  * Next door is abandoned due to damage
+    * needs roof repair
+    * needs stair repair
+    * has strange ghosts
+      * turn out to be goats
 * Dayvil Rhode Female Half-Elf
   * Ex-Adventurer - Monk
   * Skeptical of Adventurers
