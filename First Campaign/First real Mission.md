@@ -4,7 +4,7 @@
   * retrieve a strong box within the Derbrefry's house
     * it will be in the basement hidden under a trap door.
   * **DO NOT OPEN THE BOX**
-  * 250 GP reward
+  * 200 gp reward
 1. Find the town
 1. Figure out which house is the right one
   * 4 house have basements (1-2 fight, 3 nothing, 4 correct)
@@ -14,12 +14,30 @@
       * Other is 2 sprites
         * one is in attic, one is in basement
           * will sneak up and attack 1 turn apart
-        * they have a small stash of coins in the attic
-1. correct house has been torn up and the box is missing
+        * they have a small stash of coins & gems in the attic
+* correct house has been torn up and the box is missing.
   * can find tracks leading to a small group of 3 darklings, half a day away
     * these darklings have 9 hp each
   * they have the box but couldn't open it
-1. if players open it they find a creature
-  * 1 a Chancedrak pg.67
-  * 2 a Corgipede pg.69
-  * 3 a Snallop pg.88
+1. The box is around 1.5*1.5*3 feet and is made of Steel, it is very heavy but doesn't apear to  
+  * The box has 3 locks with 14 DC rating, it has a an enchantment of hiding which stops any strong presence from getting through.
+  * If players open it they find:
+    * 1: a Chancedrak pg.67
+    * 2: a Corgipede pg.69
+    * 3: a Snallop pg.88
+    * 4: a swarm of Blinkies pg.66
+      * these creatures are in the box because an adventurer was meant retrieve them but was in danger and so hid it in this town as they found a basement where they could be hidden.
+1. Uplifted gutterkin will try to take the box back if they spend a night at the village
+  1. Will run away at a fight
+1. They make their way home
+1. They must travel to a house 3 days away from Gervirgal who thanks you and then makes them leave
+  * if they manage to get in, they'll see Helberin doing experiments on fey creatures
+    * this is highly illegal as any experiments should be done in the wilds
+    * He is also performing unethical experiments although this isn't illegal on Fey
+  * Can Fight: [Wizard Char-Sheet]( https://rpgtinker.com/index.php?template=Arcanist&race=Human&radioattribute=Poor+Array+%2812%2C12%2C11%2C10%2C10%2C8%29&numberofhitdice=3&hitdice=d8&hidefeatures=nothing)
+    * If they win they get
+      * 200 sp
+      * 60 gp
+      * Box of Perfumed Candles (25 gp)
+      * Potion of Resistance (psychic) (uncommon, dmg 188)
+1. They get the money if they deliver the box and leave
