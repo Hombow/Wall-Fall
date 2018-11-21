@@ -4,7 +4,7 @@
   * retrieve a strong box within the Derbrefry's house
     * it will be in the basement hidden under a trap door.
   * **DO NOT OPEN THE BOX**
-  * 200 gp reward
+  * 500 gp reward
 1. Find the town
 1. Figure out which house is the right one
   * 4 house have basements (1-2 fight, 3 nothing, 4 correct)
@@ -36,8 +36,10 @@
     * He is also performing unethical experiments although this isn't illegal on Fey
   * Can Fight: [Wizard Char-Sheet]( https://rpgtinker.com/index.php?template=Arcanist&race=Human&radioattribute=Poor+Array+%2812%2C12%2C11%2C10%2C10%2C8%29&numberofhitdice=3&hitdice=d8&hidefeatures=nothing)
     * If they win they get
-      * 200 sp
-      * 60 gp
-      * Box of Perfumed Candles (25 gp)
-      * Potion of Resistance (psychic) (uncommon, dmg 188)
+      * 220 sp
+      * 40 ep
+      * 200 gp
+      * Box of Perfumed Candles (30 gp)
+      * antique embroidered hat (40 gp)
+      * Potion of Resistance (psychic)p (uncommon, dmg 188)
 1. They get the money if they deliver the box and leave
