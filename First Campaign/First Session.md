@@ -18,23 +18,23 @@
           1. 1 failure, take a card and depending issues
           1. 2 failures, take a card and depending fight
           1. 3 failures, take a card and depending fight and issues
-  1. Roll Travel
-  1. Get to Boycheq
-    * Give over box
-      * can choose to look in box or not
-        * box has magic stones for wall repair
-  1. Travel Back
-    * Sepal finds them
-      * Leaves them be for now
-  1. Gets back to Gervirgal
-    1. Goes to Rhodes Home
-      1. Finds pack with things for the Acq Inc Roles
-        * Decsionist
-        * Cartographer *
-        * Documancer **
-        * Hordes Person
-        * Ocultunt
-        * Aviater
-      1. Figure out roles
+1. Roll Travel
+1. Get to Boycheq
+  * Give over box
+    * can choose to look in box or not
+      * box has magic stones for wall repair
+1. Travel Back
+  * Sepal finds them
+  * Leaves them be for now
+1. Gets back to Gervirgal
+  1. Goes to Rhodes Home
+    1. Finds pack with things for the Acq Inc Roles
+      * Decsionist
+      * Cartographer *
+      * Documancer **
+      * Hordes Person
+      * Ocultunt
+      * Aviater
+    1. Figure out roles
 
 **End of Session Plan**
