@@ -25,3 +25,12 @@
 
 ### Other:
 * sdsd
+
+### Potential Stories:
+* Talks to fey about their heritage
+  * learns about an ability
+* mum finds them
+  * magical inception, 2 mums
+    * mum was a slave for the fey but after being taken by another one she was given more freedom and after making a deal she escaped.
+      * the deal was to bare a child for the fey and give them to the fey once they are fully grown, 25
+* Finds mum

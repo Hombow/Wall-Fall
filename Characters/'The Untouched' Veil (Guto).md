@@ -4,7 +4,7 @@
 * Child of Rakshasa (Uvash)?
   * Stolen Child of Tabaxi Royals
   * Transported away from the clan by someone else at 21
-    * was going to tell others about the nature of Uvash
+    * was going to tell others about the nature of Uvash before being telported?
   * spent a few years traveling until they found out about Team F
 * **Scared of BEES**
 * 3 Questions:
@@ -18,3 +18,8 @@
 ### Items:
 
 ### Other:
+
+### Potential Stories:
+* Uvash sends someone to come find them
+  * They learn about stuff and get annoyed
+* Uvash comes find them

@@ -8,13 +8,13 @@
         * Kildreac was a trainer for young recruits
         * Other dwarven cities and some people will know respects the knights from there
     * Broke Knights Code
-      * Prottected and Ran away with Fey
+      * Protected and Ran away with Fey
         * Some other stuff lead them to doubt the integrity of the Knights/leader of the knights
         * One person knows
           * Others do/don't know
     * Answers to questions:
       1. Who have you wronged:
-        * the left behind someone when they ran away with the fey
+        * the left behind their family when they ran away with the fey
       1. Secret reason for joining Team F:
         * To smuggle fey through the border
       1. What would you kill to know:
@@ -23,3 +23,8 @@
 ### Items:
 
 ### Other:
+
+### Potential Stories:
+* manages to get them out of the wilds
+  * Dayvils wife helps them
+* helps out the gutterkins village after returning them
