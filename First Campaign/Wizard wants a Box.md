@@ -34,7 +34,7 @@
   * if they manage to get in, they'll see Helberin doing experiments on fey creatures
     * this is highly illegal as any experiments should be done in the wilds
     * He is also performing unethical experiments although this isn't illegal on Fey
-  * Can Fight: [Wizard Char-Sheet]( https://rpgtinker.com/index.php?template=Arcanist&race=Human&radioattribute=Poor+Array+%2812%2C12%2C11%2C10%2C10%2C8%29&numberofhitdice=3&hitdice=d8&hidefeatures=nothing)
+  * Can Fight
     * If they win they get
       * 220 sp
       * 40 ep
