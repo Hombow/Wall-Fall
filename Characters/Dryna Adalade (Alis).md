@@ -18,7 +18,7 @@
   * What's secret reason for joining Team F
     * To find out who their father is and find them
   * What would you kill to know
-    *
+    * Are the fey bad 
 
 ### Items:
 * sdsd
