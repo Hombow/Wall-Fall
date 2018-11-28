@@ -27,4 +27,5 @@
 ### Potential Stories:
 * manages to get them out of the wilds
   * Dayvils wife helps them
-* helps out the gutterkins village after returning them
+  * helps out the gutterkins village after returning them
+* someone from the city comes to find them
