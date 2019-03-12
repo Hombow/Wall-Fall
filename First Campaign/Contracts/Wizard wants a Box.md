@@ -1,4 +1,4 @@
-1. Contract from Helberin Derbrefry
+1. Contract from Helberin Dufburys
   * Go to the abandoned town of Dunstruts
     * 4 days travel
   * retrieve a strong box within the Derbrefry's house

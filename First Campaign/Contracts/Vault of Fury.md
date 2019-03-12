@@ -2,7 +2,7 @@
 1. There is a Vault within Fey-Wild
   * It is called the Vault of Fury
   * It is roughly 5 days from Gervirgal
-    * Party can go through Boycheq for safety but will add 3 days travel to the journey
+    * Party can go through Boycheq for safety but will add 1 days travel to the journey
   * The vault was owned by a adventuring party who died in the change, they were semi-local heroes, The Stone Setters (Druid, Ranger, Cleric, Wizard)
     * *The party was very nature orientated*
   * Their is a point that is reported to be the location but it can't be confirmed.
@@ -38,7 +38,7 @@
         * a bunch of gears that turn when the correct things are done but can turn 1 revolution without doing them if forced.
         * 4 handprints in the vault door
 1. The emblem is a piece of wood that is in the shape of a rat, the rat has a knotted tail and a open mouth with sharp teeth, as well as a small roller on the base, described like a toy
-  * The emblem can be found in the Bathroom and the Greenhouse
+  * The emblem can be found in the Bathroom and the Bedroom and store
 1. The house is relatively small and many of the items are in disrepair but there is 3 rooms that seem useful
   * The Kitchen, Red Herrings:
     * ornate cutlery (5sp for all of them)
@@ -67,7 +67,8 @@
       * many of the items in these room are missing and the room seems semi-torn apart.
 1. When the rat is found and the party solves the puzzle, the vault door opens and reveals a medium sized cavern with lots of a light and fauna
   * The floor is also covered in rats but it there are so many it seems like the floor is moving
-    * there is nearly 2000 rats
+    * there is nearly 1100 rats
+    18 gold
   * In the center is a pedestal with a flute on it
 1. when they open the door, loads of rats come out and they can notice that they have a golden shimmer. **Roll Initiative**
 1. If they try to hurt any rats, 3 swarms will arise and attack them.
