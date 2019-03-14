@@ -19,7 +19,7 @@
   * can find tracks leading to a small group of 3 darklings, half a day away
     * these darklings have 9 hp each
   * they have the box but couldn't open it
-1. The box is around 1.5*1.5*3 feet and is made of Steel, it is very heavy but doesn't apear to  
+1. The box is around 1.5 x 1.5 x 3 feet and is made of Steel, it is very heavy but doesn't appear to  
   * The box has 3 locks with 14 DC rating, it has a an enchantment of hiding which stops any strong presence from getting through.
   * If players open it they find:
     * 1: a Chancedrak pg.67
@@ -33,13 +33,12 @@
 1. They must travel to a house 3 days away from Gervirgal who thanks you and then makes them leave
   * if they manage to get in, they'll see Helberin doing experiments on fey creatures
     * this is highly illegal as any experiments should be done in the wilds
-    * He is also performing unethical experiments although this isn't illegal on Fey
+    * He is alsoperforming unethical experiments although this isn't illegal on Fey
   * Can Fight
     * If they win they get
       * 220 sp
-      * 40 ep
       * 200 gp
       * Box of Perfumed Candles (30 gp)
       * antique embroidered hat (40 gp)
-      * Potion of Resistance (psychic)p (uncommon, dmg 188)
+      * Potion of Resistance (psychic) (uncommon, dmg 188)
 1. They get the money if they deliver the box and leave
