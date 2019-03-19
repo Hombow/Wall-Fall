@@ -1,28 +1,28 @@
 ## Pantheon
 ### Major Deities
-| Name     | Title                | Domain                  | Alignment | Pronouns  | Depictions                                                 | Symbol            |
-| -------- | -------------------- | ----------------------- | --------- | --------- | ---------------------------------------------------------- | ----------------- |
-| Agas     | God of Balance       | Life & Death            | LN        | They/Them | A set of scales or a feather on it's point                 | ![A set of scales](https://github.com/Hombow/Wall-Fall/blob/master/Lore/Pantheon%20Images/Scales.png)   |
-| Xesbin   | Goddess of the Moon  | The Moon & Stars        | TN        | She/They  | The Moon, An outline of a humanoid surrounded by Moonlight | A Cresent Moon    |
-| Veros    | God of the Water     | The Seas & Rivers       | CN        | He/They   | Waves, An outline of a humanoid shrouded in darkness       | Rolling Waves     |
-| Taais    | Goddess of Plants    | Plants                  | CN        | She/Her   | A women with bark skin and liquid eyes                     | A Mighty Oak      |
-| Oien     | Goddess of Animals   | Animals                 | CN        | She/Her   | A women with long pupils and shifting skin                 | Sharp Teeth       |
-| Joaquin  | God of the Flame     | Fire & Destruction      | CE        | He/Him    | A young elven Man wreathed in Flame                        | A Smoke trail     |
-| Tatsiana | Goddess of the Forge | The Forge & Creation    | CG        | She/Her   | An old dwarven woman, with a sword as a cane               | A hammer or anvil |
-| Germetel | God of Minds         | Knowledge & Intelegence | LN        | He/Him    | A young Orcish man with a book in humanoid                 | A book and quill  |
-| Gorn     | God of Bodies        | Strength & Protection   | CN        | He/Him    | An Old gnomish man holding a rock above his head           | A Crack           |
+| Name     | Title                | Domain                  | Alignment | Pronouns  | Depictions                                                 | Symbol                                                                                                                                |
+| -------- | -------------------- | ----------------------- | --------- | --------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Agas     | God of Balance       | Life & Death            | LN        | They/Them | A set of scales or a feather on it's point                 | ![Agas Symbol](https://github.com/Hombow/Wall-Fall/blob/master/Lore/Pantheon%20Images/Scales.png?raw=true "A Set of Scales")          |
+| Xesbin   | Goddess of the Moon  | The Moon & Stars        | TN        | She/They  | The Moon, An outline of a humanoid surrounded by Moonlight | ![Xesbin Symbol](https://github.com/Hombow/Wall-Fall/blob/master/Lore/Pantheon%20Images/Cresent%20Moon.png?raw=true "A Cresent Moon") |
+| Veros    | God of the Water     | The Seas & Rivers       | CN        | He/They   | Waves, An outline of a humanoid shrouded in darkness       | ![Xesbin Symbol](https://github.com/Hombow/Wall-Fall/blob/master/Lore/Pantheon%20Images/Waves.png?raw=true "Rolling Waves")           |
+| Taais    | Goddess of Plants    | Plants                  | CN        | She/Her   | A women with bark skin and liquid eyes                     | ![Taais Symbol](https://github.com/Hombow/Wall-Fall/blob/master/Lore/Pantheon%20Images/Oak%20Tree.png?raw=true "A Mighty Oak")        |
+| Oien     | Goddess of Animals   | Animals                 | CN        | She/Her   | A women with long pupils and shifting skin                 | ![Oien Symbol](https://github.com/Hombow/Wall-Fall/blob/master/Lore/Pantheon%20Images/Sharp%20Teeth.png?raw=true "Sharp Teeth")       |
+| Joaquin  | God of the Flame     | Fire & Destruction      | CE        | He/Him    | A young elven Man wreathed in Flame                        | A Smoke trail                                                                                                                         |
+| Tatsiana | Goddess of the Forge | The Forge & Creation    | CG        | She/Her   | An old dwarven woman, with a sword as a cane               | A hammer or anvil                                                                                                                     |
+| Germetel | God of Minds         | Knowledge & Intelegence | LN        | He/Him    | A young Orcish man with a book in humanoid                 | A book and quill                                                                                                                      |
+| Gorn     | God of Bodies        | Strength & Protection   | CN        | He/Him    | An Old gnomish man holding a rock above his head           | A Crack                                                                                                                               |
 
 ### Natural Forces
-| Type    | Name   | Title                  | Domain             | Alignment | Pronouns  | Depictions     | Symbol                                  |
-| ------- | ------ | ---------------------- | ------------------ | --------- | --------- | -------------- | --------------------------------------- |
-| Seasons | Dia    | Spring, The Reclaimer  | Seasons & Life     | TN        | They/Them | Spring         | An x with the top quadrant filled in    |
-| Seasons | Alra   | Summer, The Open Sky   | Seasons & Light    | NG        | They/Them | Summer         | An x with the right quadrant filled in  |
-| Seasons | Nocta  | Autumn, The Harvester  | Seasons & Death    | TN        | They/Them | Autumn         | An x with the bottom quadrant filled in |
-| Seasons | Ilta   | Winter, The Grey Cloak | Seasons & Darkness | NE        | They/Them | Winter         | An x with the left quadrant filled in   |
-| Weather | Stylar | Goddess of Storms      | Rain               | CN        | They/Them | A Storm        | A Lightning Bolt                        |
-| Weather | Eiriol | God of Blizzards       | Snow               | CN        | They/Them | A Blizzard     | A Snowflake                             |
-| Weather | Bredil | God of Droughts        | Heat               | CN        | They/Them | Cracked Ground | A Skull                                 |
-| Weather | Fantal | Goddess of Hurricanes  | Wind               | CN        | They/Them | A Hurricane    | A curly wind thing                      |
+| Type    | Name   | Title                  | Domain             | Alignment | Pronouns  | Depictions     | Symbol                                                                                                                                               |
+| ------- | ------ | ---------------------- | ------------------ | --------- | --------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Seasons | Dia    | Spring, The Reclaimer  | Seasons & Life     | TN        | They/Them | Spring         | ![Dia Symbol](https://github.com/Hombow/Wall-Fall/blob/master/Lore/Pantheon%20Images/Spring.png?raw=true "An x with the top quadrant filled in")              |
+| Seasons | Alra   | Summer, The Open Sky   | Seasons & Light    | NG        | They/Them | Summer         | ![Alra Sybol](https://github.com/Hombow/Wall-Fall/blob/master/Lore/Pantheon%20Images/Summer.png?raw=true "An x with the right quadrant filled in")   |
+| Seasons | Nocta  | Autumn, The Harvester  | Seasons & Death    | TN        | They/Them | Autumn         | ![Nocta Symbol](https://github.com/Hombow/Wall-Fall/blob/master/Lore/Pantheon%20Images/Autumn.png?raw=true "An x with the bottom quadrant filled in") |
+| Seasons | Ilta   | Winter, The Grey Cloak | Seasons & Darkness | NE        | They/Them | Winter         | ![Ilta Symbol](https://github.com/Hombow/Wall-Fall/blob/master/Lore/Pantheon%20Images/Winter.png?raw=true "An x with the left quadrant filled in")     |
+| Weather | Stylar | Goddess of Storms      | Rain               | CN        | They/Them | A Storm        | A Lightning Bolt                                                                                                                                     |
+| Weather | Eiriol | God of Blizzards       | Snow               | CN        | They/Them | A Blizzard     | A Snowflake                                                                                                                                          |
+| Weather | Bredil | God of Droughts        | Heat               | CN        | They/Them | Cracked Ground | A Skull                                                                                                                                              |
+| Weather | Fantal | Goddess of Hurricanes  | Wind               | CN        | They/Them | A Hurricane    | A curly wind thing                                                                                                                                   |
 
 ### Animus
 | Name            | Title                                     | Domain            | Alignment | Pronouns  | Depictions  | Symbol                 |
