@@ -2,7 +2,7 @@
 ### Major Deities
 | Name     | Title                | Domain                  | Alignment | Pronouns  | Depictions                                                 | Symbol            |
 | -------- | -------------------- | ----------------------- | --------- | --------- | ---------------------------------------------------------- | ----------------- |
-| Agas     | God of Balance       | Life & Death            | LN        | They/Them | A set of scales or a feather on it's point                 | A set of scales   |
+| Agas     | God of Balance       | Life & Death            | LN        | They/Them | A set of scales or a feather on it's point                 | ![A set of scales](https://github.com/Hombow/Wall-Fall/blob/master/Lore/Pantheon%20Images/Scales.png)   |
 | Xesbin   | Goddess of the Moon  | The Moon & Stars        | TN        | She/They  | The Moon, An outline of a humanoid surrounded by Moonlight | A Cresent Moon    |
 | Veros    | God of the Water     | The Seas & Rivers       | CN        | He/They   | Waves, An outline of a humanoid shrouded in darkness       | Rolling Waves     |
 | Taais    | Goddess of Plants    | Plants                  | CN        | She/Her   | A women with bark skin and liquid eyes                     | A Mighty Oak      |
