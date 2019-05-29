@@ -1,7 +1,7 @@
 1. Contract from Helberin Dufburys
-  * Go to the abandoned town of Dunstruts
+  * Go to the abandoned town of Dunstrunts
     * 4 days travel
-  * retrieve a strong box within the Derbrefry's house
+  * retrieve a strong box within a house
     * it will be in the basement hidden under a trap door.
   * **DO NOT OPEN THE BOX**
   * 500 gp reward
@@ -16,6 +16,7 @@
           * will sneak up and attack 1 turn apart
         * they have a small stash of coins & gems in the attic
 * correct house has been torn up and the box is missing.
+1st Session stop
   * can find tracks leading to a small group of 3 darklings, half a day away
     * these darklings have 9 hp each
   * they have the box but couldn't open it
