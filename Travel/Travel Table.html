@@ -1,236 +1,262 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
     <meta charset="utf-8">
     <title></title>
-  </head>
-  <body>
-    <script type="text/javascript">
+    <script>
       function DiseaseTable()
       {
         var Roll = parseInt(window.prompt("Roll?","0"));
         if (Roll > 100)
         {
-          Roll = 200 - Roll
+          Roll = 200 - Roll;
         }
         if (Roll < 0)
         {
-          Roll = 0 - Roll
+          Roll = 0 - Roll;
         }
         alert(document.getElementById('DieseseTable').rows[Roll+1].cells[1].innerHTML)
       }
+      function BuffTable()
+      {
+        var Roll = parseInt(window.prompt("Percent Roll?","0"));
+        var Roll2 = parseInt(window.prompt("Small Roll?","1"));
+        if (Roll > 100)
+        {
+          Roll = 200 - Roll;
+        }
+        if (Roll < 0)
+        {
+          Roll = 0 - Roll;
+        }
+        alert(document.getElementById('BuffTable').rows[Roll+1].cells[1].innerHTML + Roll2 + " days")
+      }
     </script>
+  </head>
+  <body>
     <h2>Bane</h2>
-    <table border="2px">
+    <table border="2px" style="padding:3px">
         <tr>
-          <th rowspan="2">Nom</th>
-          <th colspan="2">Hearts</th>
-          <th>Diamonds</th>
-          <th>Spades</th>
-          <th>Clubs</th>
+          <td rowspan="2">Card</td>
+          <td colspan="2">Hearts</td>
+          <td colspan="2">Diamonds</td>
+          <td colspan="2">Spades</td>
+          <td colspan="2">Clubs</td>
         </tr>
         <tr>
           <td colspan="2">Curse</td>
-          <td>Wealth</td>
-          <td>Time</td>
-          <td>Enemies</td>
+          <td colspan="2">Wealth</td>
+          <td colspan="2">Time</td>
+          <td colspan="2">Enemies</td>
         </tr>
         <tr>
           <td>2</td>
-          <td rowspan="9" ><button type="button" name="button" onclick="DiseaseTable()">Disease</button></td>
+          <td rowspan="9" style="width:30px"><input type="button" onclick="DiseaseTable()" value = "Disease"></td>
           <td>-10</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td rowspan="3" style="width:30px">Silver</td>
+          <td style="width:10px">2d10</td>
+          <td rowspan="6">Days</td>
+          <td>1/2</td>
+          <td rowspan="3">Trivial</td>
+          <td>2</td>
         </tr>
         <tr>
           <td>3</td>
           <td>-5</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>2d12</td>
+          <td>1</td>
+          <td>4</td>
         </tr>
         <tr>
           <td>4</td>
           <td>+0</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>2d20</td>
+          <td>2</td>
+          <td>6</td>
         </tr>
         <tr>
           <td>5</td>
           <td>+5</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td rowspan="3">Gold</td>
+          <td>1d10</td>
+          <td>3</td>
+          <td rowspan="3">Easy</td>
+          <td>4</td>
         </tr>
         <tr>
           <td>6</td>
           <td>+10</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>1d12</td>
+          <td>5</td>
+          <td>6</td>
         </tr>
         <tr>
           <td>7</td>
           <td>+15</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>1d20</td>
+          <td>8</td>
+          <td>8</td>
         </tr>
         <tr>
           <td>8</td>
           <td>+20</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td rowspan="3">Platinum</td>
+          <td>1d4</td>
+          <td style="width:30px" rowspan="3">x days to landmark</td>
+          <td>2</td>
+          <td rowspan="3">Medium</td>
+          <td>6</td>
         </tr>
         <tr>
           <td>9</td>
           <td>+25</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>1d6</td>
+          <td>5</td>
+          <td>8</td>
         </tr>
         <tr>
           <td>10</td>
           <td>+30</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>1d8</td>
+          <td>8</td>
+          <td>10</td>
         </tr>
         <tr>
           <td>J</td>
           <td colspan="2">Primal Beast</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td colspan="2">Water</td>
+          <td colspan="2"></td>
+          <td colspan="2"></td>
         </tr>
         <tr>
           <td>Q</td>
           <td colspan="2"></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td colspan="2">Rations</td>
+          <td colspan="2"></td>
+          <td colspan="2"></td>
         </tr>
         <tr>
           <td>K</td>
           <td colspan="2"></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td colspan="2">Shelter</td>
+          <td colspan="2"></td>
+          <td colspan="2"></td>
         </tr>
         <tr>
           <td>A</td>
           <td colspan="2"></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td colspan="2">2 Of The Above</td>
+          <td colspan="2"></td>
+          <td colspan="2"></td>
         </tr>
     </table>
     <h2>Boon</h2>
     <table border="2px">
       <tr>
-        <td rowspan="2">Nom</td>
-        <td>Hearts</td>
-        <td>Diamonds</td>
+        <td rowspan="2">Card</td>
+        <td colspan="2">Hearts</td>
+        <td colspan="2">Diamonds</td>
         <td>Spades</td>
         <td>Clubs</td>
       </tr>
       <tr>
-        <td>Buffs</td>
-        <td>Wealth</td>
+        <td colspan="2">Buffs</td>
+        <td colspan="2">Wealth</td>
         <td>Time</td>
         <td></td>
       </tr>
       <tr>
         <td>2</td>
-        <td></td>
-        <td></td>
+        <td rowspan="9"><input type="button" onclick="BuffTable()" value = "Buff"></td>
+        <td>1d4</td>
+        <td rowspan="3" style="width:30px">Silver</td>
+        <td style="width:10px">2d10</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>3</td>
-        <td></td>
-        <td></td>
+        <td>1d6</td>
+        <td>2d12</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>4</td>
-        <td></td>
-        <td></td>
+        <td>1d8</td>
+        <td>2d20</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>5</td>
-        <td></td>
-        <td></td>
+        <td>2d4</td>
+        <td rowspan="3">Gold</td>
+        <td>1d10</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>6</td>
-        <td></td>
-        <td></td>
+        <td>1d12</td>
+        <td>1d12</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>7</td>
-        <td></td>
-        <td></td>
+        <td>2d6</td>
+        <td>1d20</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>8</td>
-        <td></td>
-        <td></td>
+        <td>3d4</td>
+        <td rowspan="3">Platinum</td>
+        <td>1d4</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>9</td>
-        <td></td>
-        <td></td>
+        <td>2d8</td>
+        <td>1d6</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>10</td>
-        <td></td>
-        <td></td>
+        <td>4d4</td>
+        <td>1d8</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>J</td>
-        <td></td>
-        <td></td>
+        <td colspan="2"></td>
+        <td colspan="2">Common Item</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>Q</td>
-        <td></td>
-        <td></td>
+        <td colspan="2"></td>
+        <td colspan="2">Uncommon Item</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>K</td>
-        <td></td>
-        <td></td>
+        <td colspan="2"></td>
+        <td colspan="2">Common Magical Item</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
         <td>A</td>
-        <td></td>
-        <td></td>
+        <td colspan="2"></td>
+        <td colspan="2">Uncommon Magical Item</td>
         <td></td>
         <td></td>
       </tr>
@@ -244,23 +270,24 @@
         <td>1</td>
         <td>Noblewind – you fart uncontrollably, but it smells sweet. Everybody notices.</td>
       </tr>
-      <tr">
+      <tr>
         <td>2</td>
         <td>Wild Stench – You give off an odor that is undetectable to humans and many other humanoid species like dwarves and orcs, but can be smelled by most mammals, fish, and insects from far away. They find it highly offensive and will flee from it. Only the bravest scent hounds can be convinced to track such a scent. It is rumored that wild stench is the partly successful result of a magical experiment to keep crops safe from wild animals. Curiously, dragons find it pleasant and may ask where you got that enchanting perfume.</td>
       </tr>
       <tr>
-          <td>3</td>
-          <td>The Common Cold – Just a cold. You’ll cough and sneeze, but that’s about it</td>
+        <td>3</td>
+        <td>The Common Cold – Just a cold. You’ll cough and sneeze, but that’s about it</td>
       </tr>
       <tr>
-          <td>3</td>
-          <td>Brilliant Urine Disease – You get dehydrated twice as quickly as usual, and your urine glows neon yellow, brightly enough that a pint glass of it could substitute for a torch. Spread through pollen in heavy forests, this disease is the bane of scouts, spies, and hunters.</td>
+        <td>3</td>
+        <td>Brilliant Urine Disease – You get dehydrated twice as quickly as usual, and your urine glows neon yellow, brightly enough that a pint glass of it could substitute for a torch. Spread through pollen in heavy forests, this disease is the bane of scouts, spies, and hunters.</td>
       </tr>
       <tr>
         <td>4</td>
-        <td>Desert Fever – Skin takes on a red tinge, fever &amp; bouts of cold sweat. Treat unusually warm or cold weather as hazardous temperatures. Often a physical ailment caused by interacting with malicious djinn magic. May be transmitted orally.</td>
+        <td>Desert Fever – Skin takes on a red tinge, fever and bouts of cold sweat. Treat unusually warm or cold weather as hazardous temperatures. Often a physical ailment caused by interacting with malicious djinn magic. May be transmitted orally.</td>
       </tr>
-        <tr>><td>4</td>
+      <tr>
+        <td>4</td>
         <td>Rabbit Panic – This person can’t eat rabbit without being panicked for 2d8 hours.</td>
       </tr>
       <tr>
@@ -610,6 +637,408 @@
       <tr>
         <td>99</td>
         <td>Vorel’s Phage – Disease starts by imposing one Exhaustion level on the affected creature, in which small patches of bumps errupt on the inflicted creature’s skin and the joints swell painfully. After an incubation period of 1d4-1 nights, the creature gains another level of Exhaustion and the bumps become raised and fungal looking. On the firstboccurance of a new moon after the incubation period, the infected creature gains 2 more Exhaustion levels. If this kills the creature, it rises again after 1d4-1 nights as a wight. If a blood moon occurs at any point after incubation, the creature instead just succeed in a DC 15 Constitution saving throw or die immediately, raising in a minute as a wight. Exhaustion levels gained by this disease reappear every morning and only a miracle, wish or some other similar magic can permanently remove them without curing the disease.</td>
+      </tr>
+    </table>
+    <table id="BuffTable" style="display: none">
+      <tr>
+        <td>1</td>
+        <td>Your eyes permanently change color. This can only be removed by magic after </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>You have minty fresh breath for</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>You see that everyone has a slight outline around them, the color ranging from green to red, but you don't know the meaning. It's showing you how long since someone has taken a shit, green being recently and red being long ago. This lasts for </td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>This player never gets dirty and remains odorless, even in the most filthy dungeon. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>You can fart loudly every as a free action. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>The bearer always knows the direction to the nearest tavern in a 60 mile radius. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>The bearer may cast Message once per day. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>The bearer suffers no harm in temperature as cold as -20 degrees Fahrenheit. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>The bearer may cast Friends once per day. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>The bearer may cast Mage Hand once per day. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>The bearer may cast Mending once per day. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>You turn a deep green and can photosynthesize, but must consume dirt and/or fertilizer to do so. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>The bearer can use an action to amplify their voice so that it clearly carries for up to 300 feet. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>The index finger on your dominant hand start to glow shed bright light in a 20-foot radius and dim light for an additional 20 feet for </td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>The bearer may cast Alarm once per day. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>The bearer may use their weapon to make colored marks on any surface. The marks will fade away in 24 hours. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>The wielder can use an action to learn which way is north. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>You may change minor aspects of the physical appearance of themselves. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>Contains 1d4 unreplenishable charges of the Detect Magic spell (1st level). This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>You have advantage on saving throws vs. fear. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>All your bodily fluids glow a bright blue, causing them to emit a feint glow. This glow becomes stronger when bleeding. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>You can restore all of your spell slots once per day, but can only use the restored slots to cast one spell untill the next long rest. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>You hover 4 inches above the ground for </td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>The player leaves no footprints. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>You gain a 10ft flying speed, but lose your walking speed. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>your skin turns slimy and you can hold your breath for 10 minutes for the next 1d6 days. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>Contains 1d4 unreplenishable charges of the Goodberry spell (1st level). This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td>The bearer has a +1 bonus to any skill check involving gambling and games of chance (Insight, Sleight of Hand, Investigation, etc). This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td>You feel an extraordinary fluency and efficacy in your words and are able express thoughts with great clarity. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>The player gains +2 to their Passive Perception. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>32</td>
+        <td>One random ability score is increased by 6 (no maximum), and one different random ability score is decreased by 6 (no minimum). This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>32</td>
+        <td>Your WIS increases by 1d4, and INT decreases by 1d4 for </td>
+      </tr>
+      <tr>
+        <td>34</td>
+        <td>The player can only deal non-lethal damage to living targets. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>34</td>
+        <td>Your speed is increased by 10 feet. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>35</td>
+        <td>Reduce your intelligence and increase your strength by 1d4 for </td>
+      </tr>
+      <tr>
+        <td>36</td>
+        <td>Contains 1d4 unreplenishable charges of the Longstrider spell (1st level). This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>37</td>
+        <td>The bearer may spend an action to stabilize a dying creature within 5 feet This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>37</td>
+        <td>you gain 2d4+4 temporary life points. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>39</td>
+        <td>The bearer can see creatures in the Border Ethereal that overlap with their plane as clearly as if they were fully in the bearer's plane. Such creatures appear as apparitions or ghosts. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>39</td>
+        <td>You gain the ability to walk on water for </td>
+      </tr>
+      <tr>
+        <td>40</td>
+        <td>You can speak 3 additional languages, chosen by the DM, for </td>
+      </tr>
+      <tr>
+        <td>43</td>
+        <td>You suffer the outward effects being intoxicated, but your intelligence score is increased by 8 or up to 20. Once the time is up, you recover from all effects and your intelligence reverts. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td>Reduces cold damage to the bearer by 1. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td>Reduces thunder damage to the bearer by 1. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td>The bearer gains +1 to dexterity saving throws. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td>You can jump four times as high, also all fall damage you take is divided by four for </td>
+      </tr>
+      <tr>
+        <td>49</td>
+        <td>You are under the effects of the Find Traps spell. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>49</td>
+        <td>You grow a third eye in your forehead granting you +2 perception for </td>
+      </tr>
+      <tr>
+        <td>52</td>
+        <td>The bearer has advantage on perception checks when searching for items. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>52</td>
+        <td>You know where the closest body of water is at any point. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td>All negative conditions are removed, health is restored to full, and any injuries are instantly healed. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td>The bearer can send messages mentally to willing characters within 30 feet. This communication is one-way only. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td>the bearer gains +1 to Charisma (Performance) checks. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td>The bearer gains +1 to Charisma (Persuasion) checks. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td>The bearer gains a +1 bonus to Wisdom (Religion) checks. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td>When you next deal damage, the damage is maximized. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td>you can exhale a frost breath in a 15 feet cone. Each creature in the area must make a DC13 Constitution save, or take 3d6 cold damage, and half on a success. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td>You gain a +1 bonus to Intelligence (Nature) checks. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>56</td>
+        <td>You have +1 AC when moonlight is shining directly on you. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>57</td>
+        <td>Edible plants grow slowly around you, if you spend 3 hours in the same place, you can harvest these plants for a days ration. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>57</td>
+        <td>When the bearer of this item rolls hit dice, they can choose to re-roll them and take the second result. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>59</td>
+        <td><div>The bearer can hear a pin drop in a crowded room and gains advantage on Wisdom (Perception) checks that use hearing. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>62</td>
+        <td>Contains 1d4 unreplenishable charges of the Speak with Animals spell (1st level). This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>62</td>
+        <td>This item contains 1d4 unreplenishable charges of the Shield spell. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>62</td>
+        <td>You feel your skin getting harder. You AC is increased by 3, but your movement speed is halved. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>63</td>
+        <td>While the bearer is at 0 hp, they begin to hear the most beautiful music they have ever heard. The bearer has advantage on death saving throws and cannot recall details about the music if they wake. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td>The drinker becomes extremely physically attractive. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td>The player gains +1 to Constitution Saving Throws. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td>Two extra arms sprout from your sides and function as normal. You can use these arms to take a bonus action during combat. After the effect ends the arms suddenly fall away, lifeless. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td>When the bearer rolls hit dice, they may double the result of one of them per long rest. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td>You can unleash the fire breath of a red dragon wyrmling directly in front of you once. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td>you feel really hot, and you feel your blood boiling. You become resistant to fire damage, you when you are hit by an attack, every creature 5 feet around you must make a DC12 Dexterity save, or take 1d6 fire damage, and half on a sucess. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td>You gain the service of a phantom steed. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td>You gain Truesight for </td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td>You get flight movement equal to your walking movement, This effect ends when you get 100ft high or after  </td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td>You have +1 AC when completely submerged in water. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>67</td>
+        <td>You suddenly restore a lost organ or body part as long as it isn't larger than an orc's heart. The restored body part will be partially see-through and assume a foggy white color.  This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>69</td>
+        <td>When the bearer takes a long rest, they gain back one additional hit die. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>73</td>
+        <td>You have +1 AC when in dim light. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>74</td>
+        <td>Gain immunity to all negative effects that would be obtained by a substance entering the body. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>76</td>
+        <td>You can recover 1 expended spell slot of your choice once per day This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>82</td>
+        <td>Contains 1d4 unreplenishable charges of the Bane spell(1st level). This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>78</td>
+        <td>The bearer gain a +1 bonus to initiative rolls. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>78</td>
+        <td>The bearer may spend an action removing all the failed death saving throws from a target within 5 feet of them. The target is still not stabilized. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>78</td>
+        <td>The potion has floating crumbs of copper in it. Drinking it gives a boost to your immunity system, curing you of diseases. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>78</td>
+        <td>You can hover an inch above the ground. Base speed is now 40 feet.  This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>78</td>
+        <td>You gain expertise in a skill you are proficient in. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>78</td>
+        <td>You gain the ability to speak one new language of your choice. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>78</td>
+        <td>You have +1 AC if two or more enemies are adjacent to them. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>79</td>
+        <td>You are under the effects of the Pass Without Trace spell. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>79</td>
+        <td>Your body slowly starts to become transparent, and you eventually become completely invisible. Lasts until you get hit. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>80</td>
+        <td>Whenever the bearer kills a creature they gain temporary hit points equal to the creature's CR. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>86</td>
+        <td>The player does maximum damage against plant creatures. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>87</td>
+        <td>The player is immune to all non-magical dieseases. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>89</td>
+        <td>Any time you make an ability check, you can roll 1d6 and add the result. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>89</td>
+        <td>Your STR is permanently increased by 1. If it's already 20, it goes down to 19. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>92</td>
+        <td>Any Agresive creatures fail to notice your presence This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>93</td>
+        <td>You are protected from Beasts. Such creatures cannot attack you or harm you unless they save a Charisma saving throw against 15 DC. This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>97</td>
+        <td>All allies within 30 feet of you gain a +2 to their AC This effect lasts for </td>
+      </tr>
+      <tr>
+        <td>100</td>
+        <td>You get a single wish spell. This can't be used after</td>
       </tr>
     </table>
   </body>
