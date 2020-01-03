@@ -1,0 +1,85 @@
+{
+	"items": [
+		{
+			"h": "boon%20of%20combat%20prowess_dmg"
+		},
+		{
+			"h": "boon%20of%20dimensional%20travel_dmg"
+		},
+		{
+			"h": "boon%20of%20fate_dmg"
+		},
+		{
+			"h": "boon%20of%20fortitude_dmg"
+		},
+		{
+			"h": "boon%20of%20high%20magic_dmg"
+		},
+		{
+			"h": "boon%20of%20immortality_dmg"
+		},
+		{
+			"h": "boon%20of%20invincibility_dmg"
+		},
+		{
+			"h": "boon%20of%20irresistible%20offense_dmg"
+		},
+		{
+			"h": "boon%20of%20luck_dmg"
+		},
+		{
+			"h": "boon%20of%20magic%20resistance_dmg"
+		},
+		{
+			"h": "boon%20of%20peerless%20aim_dmg"
+		},
+		{
+			"h": "boon%20of%20perfect%20health_dmg"
+		},
+		{
+			"h": "boon%20of%20planar%20travel_dmg"
+		},
+		{
+			"h": "boon%20of%20quick%20casting_dmg"
+		},
+		{
+			"h": "boon%20of%20recovery_dmg"
+		},
+		{
+			"h": "boon%20of%20resilience_dmg"
+		},
+		{
+			"h": "boon%20of%20skill%20proficiency_dmg"
+		},
+		{
+			"h": "boon%20of%20speed_dmg"
+		},
+		{
+			"h": "boon%20of%20spell%20mastery_dmg"
+		},
+		{
+			"h": "boon%20of%20spell%20recall_dmg"
+		},
+		{
+			"h": "boon%20of%20the%20fire%20soul_dmg"
+		},
+		{
+			"h": "boon%20of%20the%20night%20spirit_dmg"
+		},
+		{
+			"h": "boon%20of%20the%20stormborn_dmg"
+		},
+		{
+			"h": "boon%20of%20the%20unfettered_dmg"
+		},
+		{
+			"h": "boon%20of%20truesight_dmg"
+		},
+		{
+			"h": "boon%20of%20undetectability_dmg"
+		}
+	],
+	"sources": [
+		"DMG"
+	]
+}

@@ -1,0 +1,57 @@
+body
+{
+  white-space: normal;
+  word-wrap: normal;
+  font-weight: bold;
+  color: #424242;
+  background-color: #FDF1DC;
+}
+table
+{
+  font-family:"Trebuchet MS";
+  border-collapse: collapse;
+}
+td
+{
+/*  border:1px solid #822000;*/
+}
+span
+{
+  font-weight:bold;
+  color: #337AB7;
+  cursor: pointer;
+}
+thead
+{
+  font-weight: bold;
+  color: #822000;
+}
+col
+{
+  width:100px;
+}
+h2
+{
+  color: #822000
+  font-family:"Georgia";
+}
+.FirstCol
+{
+  font-weight: bolder;
+  text-align:center;
+  font-size:1.1em;
+  border:2 solid;
+  color: black;
+}
+.OtherRow
+{
+  background-color: #E4D8C3;
+}
+.LeftCol
+{
+  border-left:2px solid #822000
+}
+.RightCol
+{
+  border-right:2px solid #822000
+}

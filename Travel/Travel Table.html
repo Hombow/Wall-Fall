@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
+    <link rel="stylesheet" href="C:\Users\joele\Documents\GitHub\Wall-Fall\Travel\D&D StyleSheet.css">
     <meta charset="utf-8">
     <title></title>
     <script>
@@ -187,17 +188,42 @@
         }
         alert(text + " This lasts until cured")
       }
+      function SpecialBuffTable()
+      {
+        var Roll = parseInt(window.prompt("Roll?","0"))+1;
+        Roll = Math.ceil(Roll/4)-1
+        alert(document.getElementById('SpecialBuffTable').rows[Roll].cells[0].innerHTML + "\n" + document.getElementById('SpecialBuffTable').rows[Roll].cells[1].innerHTML)
+      }
+      function PrimalBeastTable()
+      {
+        var Roll = parseInt(window.prompt("Roll? (1d12)","0"))-1;
+        alert(document.getElementById('PrimalBeastTable').rows[Roll].cells[0].innerHTML + "\n" + document.getElementById('PrimalBeastTable').rows[Roll].cells[1].innerHTML)
+      }
     </script>
   </head>
   <body>
     <h2>Bane</h2>
-    <table border="2px" style="padding:3px">
+    <table>
+      <colgroup>
+      	<col style="width:30px;">
+      	<col class="LeftCol">
+      	<col class="RightCol" style="width:70px">
+      	<col class="LeftCol">
+      	<col class="RightCol" style="width:70px">
+      	<col class="LeftCol">
+      	<col class="RightCol" style="width:70px">
+      	<col class="LeftCol">
+      	<col class="RightCol" style="width:70px">
+      	<col style="width:30px;">
+      </colgroup>
+      <thead>
         <tr>
-          <td rowspan="2">Card</td>
-          <td colspan="2" style="width:110px">Hearts</td>
-          <td colspan="2" style="width:110px">Diamonds</td>
-          <td colspan="2" style="width:110px">Spades</td>
-          <td colspan="2" style="width:110px">Clubs</td>
+          <td rowspan="2" style="color:#822000" class="FirstCol">#</td>
+          <td colspan="2">Hearts</td>
+          <td colspan="2">Diamonds</td>
+          <td colspan="2">Spades</td>
+          <td colspan="2">Clubs</td>
+          <td rowspan="2" style="color:#822000" class="FirstCol">#</td>
         </tr>
         <tr>
           <td colspan="2">Curse</td>
@@ -205,219 +231,272 @@
           <td colspan="2">Time</td>
           <td colspan="2">Enemies</td>
         </tr>
-        <tr>
-          <td>2</td>
-          <td rowspan="9" style=" text-align:center"><input style="width:80px" type="button" onclick="DiseaseTable()" value = "Disease"></td>
+      </thead>
+      <tbody>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">2</td>
+          <td rowspan="9" style="text-align:center"><span onmousedown="DiseaseTable()">Disease</span></td>
           <td>-10</td>
           <td rowspan="3">Silver</td>
-          <td style="width:10px">2d10</td>
+          <td>2d10</td>
           <td rowspan="6">Days</td>
           <td>1/2</td>
           <td rowspan="3">Trivial</td>
           <td>2</td>
+          <td class="FirstCol">2</td>
         </tr>
         <tr>
-          <td>3</td>
+          <td class="FirstCol">3</td>
           <td>-5</td>
           <td>2d12</td>
           <td>1</td>
           <td>4</td>
+          <td class="FirstCol">3</td>
         </tr>
-        <tr>
-          <td>4</td>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">4</td>
           <td>+0</td>
           <td>2d20</td>
           <td>2</td>
           <td>6</td>
+          <td class="FirstCol">4</td>
         </tr>
         <tr>
-          <td>5</td>
+          <td class="FirstCol">5</td>
           <td>+5</td>
           <td rowspan="3">Gold</td>
           <td>1d10</td>
           <td>1d4</td>
           <td rowspan="3">Easy</td>
           <td>4</td>
+          <td class="FirstCol">5</td>
         </tr>
-        <tr>
-          <td>6</td>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">6</td>
           <td>+10</td>
           <td>1d12</td>
           <td>1d6</td>
           <td>6</td>
+          <td class="FirstCol">6</td>
         </tr>
         <tr>
-          <td>7</td>
+          <td class="FirstCol">7</td>
           <td>+15</td>
           <td>1d20</td>
           <td>1d8</td>
           <td>8</td>
+          <td class="FirstCol">7</td>
         </tr>
-        <tr>
-          <td>8</td>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">8</td>
           <td>+20</td>
           <td rowspan="3">Platinum</td>
           <td>1d4</td>
-          <td style="width:50px" rowspan="3">x days to landmark</td>
+          <td style="background-color:#FDF1DC" rowspan="3">x days to landmark</td>
           <td>1d4</td>
           <td rowspan="3">Medium</td>
           <td>6</td>
+          <td class="FirstCol">8</td>
         </tr>
         <tr>
-          <td>9</td>
+          <td class="FirstCol">9</td>
           <td>+25</td>
           <td>1d6</td>
           <td>1d6</td>
           <td>8</td>
+          <td class="FirstCol">9</td>
         </tr>
-        <tr>
-          <td>10</td>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">10</td>
           <td>+30</td>
           <td>1d8</td>
           <td>1d8</td>
           <td>10</td>
+          <td class="FirstCol">10</td>
         </tr>
         <tr>
-          <td>J</td>
-          <td colspan="2">Primal Beast</td>
+          <td class="FirstCol">J</td>
+          <td colspan="2"style="text-align:center"><span onclick="PrimalBeastTable()">Primal Beast</span></td>
           <td colspan="2">Water</td>
-          <td colspan="2"></td>
-          <td colspan="2"></td>
+          <td style="background-color:#E4D8C3" rowspan="4"></td>
+          <td></td>
+          <td colspan="2" style="font-size:0.875em">You piss off someone</td>
+          <td class="FirstCol">J</td>
         </tr>
-        <tr>
-          <td>Q</td>
-          <td colspan="2"><input style="width:140px" type="button" onclick="STMadness()" value = "Short-Term Madness"></td>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">Q</td>
+          <td colspan="2"style="text-align:center"><span onclick="STMadness()">Short-Term Madness</span></td>
           <td colspan="2">Rations</td>
-          <td colspan="2"></td>
-          <td colspan="2"></td>
+          <td></td>
+          <td colspan="2" style="font-size:0.875em">You piss off someone you are working/have worked with</td>
+          <td class="FirstCol">Q</td>
         </tr>
         <tr>
-          <td>K</td>
-          <td colspan="2"><input style="width:140px" type="button" onclick="LTMadness()" value = "Long-Term Madness"></td>
+          <td class="FirstCol">K</td>
+          <td colspan="2"style="text-align:center"><span onclick="LTMadness()">Long-Term Madness</span></td>
           <td colspan="2">Shelter</td>
-          <td colspan="2"></td>
-          <td colspan="2"></td>
+          <td></td>
+          <td colspan="2" style="font-size:0.875em">You piss off someone important</td>
+          <td class="FirstCol">K</td>
+        </tr>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">A</td>
+          <td colspan="2"style="text-align:center"><span onclick="InMadness()">Indefinite Madness</span></td>
+          <td colspan="2">2 Of The Above</td>
+          <td></td>
+          <td colspan="2" style=" font-size:0.875em">You piss off someone important to you</td>
+          <td class="FirstCol">A</td>
+        </tr>
+      </tbody>
+    </table>
+  <h2>Boon</h2>
+    <table>
+      <colgroup>
+      	<col style="width:30px;">
+      	<col class="LeftCol">
+      	<col class="RightCol" style="width:70px">
+      	<col class="LeftCol">
+      	<col class="RightCol" style="width:70px">
+      	<col class="LeftCol">
+      	<col class="RightCol" style="width:70px">
+      	<col class="LeftCol" style="width:170px">
+     	  <col class="RightCol" style="width:70px">
+      	<col style="width:30px;">
+      </colgroup>
+      <thead>
+        <tr>
+          <td rowspan="2" style="color:#822000" class="FirstCol">#</td>
+          <td colspan="2">Hearts</td>
+          <td colspan="2">Diamonds</td>
+          <td colspan="2">Spades</td>
+          <td colspan="2">Clubs</td>
+          <td rowspan="2" style="color:#822000" class="FirstCol">#</td>
         </tr>
         <tr>
-          <td>A</td>
-          <td colspan="2"><input style="width:140px" type="button" onclick="InMadness()" value = "Indefinite Madness"></td>
-          <td colspan="2">2 Of The Above</td>
-          <td colspan="2"></td>
-          <td colspan="2"></td>
+          <td colspan="2">Buffs</td>
+          <td colspan="2">Wealth</td>
+          <td colspan="2">Knowledge</td>
+          <td colspan="2">Friends</td>
         </tr>
+      </thead>
+      <tbody>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">2</td>
+          <td rowspan="9" style="text-align:center"><span onclick="BuffTable()">Buff</span></td>
+          <td>1d4</td>
+          <td rowspan="3">Silver</td>
+          <td>2d10</td>
+          <td rowspan="5">Map:</td>
+          <td>1</td>
+          <td rowspan="3">x1</td>
+          <td>+1</td>
+          <td class="FirstCol">2</td>
+        </tr>
+        <tr>
+          <td class="FirstCol">3</td>
+          <td>1d6</td>
+          <td>2d12</td>
+          <td>2</td>
+          <td>+2</td>
+          <td class="FirstCol">3</td>
+        </tr>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">4</td>
+          <td>1d8</td>
+          <td>2d20</td>
+          <td>4</td>
+          <td>+3</td>
+          <td class="FirstCol">4</td>
+        </tr>
+        <tr>
+          <td class="FirstCol">5</td>
+          <td>2d4</td>
+          <td rowspan="3">Gold</td>
+          <td>1d10</td>
+          <td>Half</td>
+          <td rowspan="3">x2</td>
+          <td>+1</td>
+          <td class="FirstCol">5</td>
+        </tr>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">6</td>
+          <td>1d12</td>
+          <td>1d12</td>
+          <td>All</td>
+          <td>+2</td>
+          <td class="FirstCol">6</td>
+        </tr>
+        <tr>
+          <td class="FirstCol">7</td>
+          <td>2d6</td>
+          <td>1d20</td>
+          <td rowspan="4">Landmark:</td>
+          <td style="font-size:0.8em">1 on route</td>
+          <td>+3</td>
+          <td class="FirstCol">7</td>
+        </tr>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">8</td>
+          <td>3d4</td>
+          <td rowspan="3">Platinum</td>
+          <td>1d4</td>
+          <td style="font-size:0.8em">1 off route</td>
+          <td rowspan="3">x3</td>
+          <td>+1</td>
+          <td class="FirstCol">8</td>
+        </tr>
+        <tr>
+          <td class="FirstCol">9</td>
+          <td>2d8</td>
+          <td>1d6</td>
+          <td style="font-size:0.8em">7 on route</td>
+          <td>+2</td>
+          <td class="FirstCol">9</td>
+        </tr>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">10</td>
+          <td>4d4</td>
+          <td>1d8</td>
+          <td style="font-size:0.8em">7 off route</td>
+          <td>+3</td>
+          <td class="FirstCol">10</td>
+        </tr>
+        <tr>
+          <td class="FirstCol">J</td>
+          <td rowspan="4" style="text-align:center"><span onclick="SpecialBuffTable()">Buff+</span></td>
+          <td>1d6 days</td>
+          <td colspan="2">Common Item</td>
+          <td colspan="2">An Enemies weakness</td>
+          <td colspan="2"></td>
+          <td class="FirstCol">J</td>
+        </tr>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">Q</td>
+          <td>1d4 weeks</td>
+          <td colspan="2">Uncommon Item</td>
+          <td colspan="2">A Source of Help</td>
+          <td colspan="2"></td>
+          <td class="FirstCol">Q</td>
+        </tr>
+        <tr>
+          <td class="FirstCol">K</td>
+          <td>1d4 months</td>
+          <td colspan="2">Common Magical Item</td>
+          <td colspan="2">Something Important</td>
+          <td colspan="2"></td>
+          <td class="FirstCol">K</td>
+        </tr>
+        <tr style="background-color:#E4D8C3;">
+          <td class="FirstCol">A</td>
+          <td>1 year</td>
+          <td colspan="2">Uncommon Magical Item</td>
+          <td colspan="2">A Players Question</td>
+          <td colspan="2"></td>
+          <td class="FirstCol">A</td>
+        </tr>
+      </tbody>
     </table>
-    <h2>Boon</h2>
-    <table border="2px">
-      <tr>
-        <td rowspan="2">Card</td>
-        <td colspan="2">Hearts</td>
-        <td colspan="2">Diamonds</td>
-        <td>Spades</td>
-        <td>Clubs</td>
-      </tr>
-      <tr>
-        <td colspan="2">Buffs</td>
-        <td colspan="2">Wealth</td>
-        <td>Time</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td rowspan="9"><input type="button" onclick="BuffTable()" value = "Buff"></td>
-        <td>1d4</td>
-        <td rowspan="3" style="width:30px">Silver</td>
-        <td style="width:10px">2d10</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>1d6</td>
-        <td>2d12</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>1d8</td>
-        <td>2d20</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>2d4</td>
-        <td rowspan="3">Gold</td>
-        <td>1d10</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>1d12</td>
-        <td>1d12</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>2d6</td>
-        <td>1d20</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td>3d4</td>
-        <td rowspan="3">Platinum</td>
-        <td>1d4</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td>2d8</td>
-        <td>1d6</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>10</td>
-        <td>4d4</td>
-        <td>1d8</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>J</td>
-        <td colspan="2"></td>
-        <td colspan="2">Common Item</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Q</td>
-        <td colspan="2"></td>
-        <td colspan="2">Uncommon Item</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>K</td>
-        <td colspan="2"></td>
-        <td colspan="2">Common Magical Item</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td colspan="2"></td>
-        <td colspan="2">Uncommon Magical Item</td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <table id="DieseseTable" style="display: none">
+    <table id="DieseseTable" style="display:none">
       <tr>
         <td>Badness</td>
         <td>Disease</td>
@@ -796,10 +875,10 @@
       </tr>
       <tr>
         <td>99</td>
-        <td>Vorel’s Phage – Disease starts by imposing one Exhaustion level on the affected creature, in which small patches of bumps errupt on the inflicted creature’s skin and the joints swell painfully. After an incubation period of 1d4-1 nights, the creature gains another level of Exhaustion and the bumps become raised and fungal looking. On the firstboccurance of a new moon after the incubation period, the infected creature gains 2 more Exhaustion levels. If this kills the creature, it rises again after 1d4-1 nights as a wight. If a blood moon occurs at any point after incubation, the creature instead just succeed in a DC 15 Constitution saving throw or die immediately, raising in a minute as a wight. Exhaustion levels gained by this disease reappear every morning and only a miracle, wish or some other similar magic can permanently remove them without curing the disease.</td>
+        <td>Vorel’s Phage – Disease starts by imposing one Exhaustion level on the affected creature, in which small 7es of bumps errupt on the inflicted creature’s skin and the joints swell painfully. After an incubation period of 1d4-1 nights, the creature gains another level of Exhaustion and the bumps become raised and fungal looking. On the firstboccurance of a new moon after the incubation period, the infected creature gains 2 more Exhaustion levels. If this kills the creature, it rises again after 1d4-1 nights as a wight. If a blood moon occurs at any point after incubation, the creature instead just succeed in a DC 15 Constitution saving throw or die immediately, raising in a minute as a wight. Exhaustion levels gained by this disease reappear every morning and only a miracle, wish or some other similar magic can permanently remove them without curing the disease.</td>
       </tr>
     </table>
-    <table id="BuffTable" style="display: none">
+    <table id="BuffTable" style="display:none">
       <tr>
         <td>1</td>
         <td>Your eyes permanently change color. This can only be removed by magic after </td>
@@ -1200,6 +1279,47 @@
         <td>100</td>
         <td>You get a single wish spell. This can't be used after</td>
       </tr>
+    </table>
+    <table id="SpecialBuffTable" style="display:none">
+      <tr><td>Boon of Combat Prowess</td><td>When you miss with a melee weapon attack, you can choose to hit instead. Once you use this boon, you can't use it again until you finish a short rest</td></tr>
+      <tr><td>Boon of Dimensional Travel</td><td>As an action, you can cast the misty step spell, without using a spell slot or any components. Once you do so, you can't use this boon again until you finish a short rest.</td></tr>
+      <tr><td>Boon of Fate</td><td>When another creature that you can see within 60 feet of you makes an ability check, an attack roll, or a saving throw, you can roll a d10 and apply the result as a bonus or penalty to the roll. Once you use this boon, you can't use it again until you finish a short rest.</td></tr>
+      <tr><td>Boon of Fortitude</td><td>Your hit point maximum increases by 40.</td></tr>
+      <tr><td>Boon of High Magic</td><td>You gain one 9th-level spell slot, provided that you already have one.</td></tr>
+      <tr><td>Boon of Immortality</td><td>You stop aging. You are immune to any effect that would age you, and you can't die from old age.</td></tr>
+      <tr><td>Boon of Invincibility</td><td>When you take damage from any source, you can reduce that damage to 0. Once you use this boon, you can't use it again until you finish a short rest.</td></tr>
+      <tr><td>Boon of Irresistible Offense</td><td>You can bypass the damage resistances of any creature.</td></tr>
+      <tr><td>Boon of Luck</td><td>You can add a d10 roll to any ability check, attack roll, or saving throw you make. Once you use this boon, you can't use it again until you finish a short rest.</td></tr>
+      <tr><td>Boon of Magic Resistance</td><td>You have advantage on saving throws against spells and other magical effects.</td></tr>
+      <tr><td>Boon of Peerless Aim</td><td>You can give yourself a +20 bonus to a ranged attack roll you make. Once you use this boon, you can't use it again until you finish a short rest.</td></tr>
+      <tr><td>Boon of Perfect Health</td><td>You are immune to all diseases and poisons, and you have advantage on Constitution saving throws.</td></tr>
+      <tr><td>Boon of Quick Casting</td><td>Choose one of your spells of 1st through 3rd level that has a casting time of 1 action. That spell's casting time is now 1 bonus action for you.</td></tr>
+      <tr><td>Boon of Recovery</td><td>You can use a bonus action to regain a number of hit points equal to half your hit point maximum. Once you use this boon, you can't use it again until you finish a long rest.</td></tr>
+      <tr><td>Boon of Resilience</td><td>You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</td></tr>
+      <tr><td>Boon of Skill Proficiency</td><td>You gain proficiency in all skills.</td></tr>
+      <tr><td>Boon of Speed</td><td>Your walking speed increases by 30 feet. In addition, you can use a bonus action to take the Dash or Disengage action. Once you do so, you can't do so again until you finish a short rest.</td></tr>
+      <tr><td>Boon of Spell Mastery</td><td>Choose one 1st-level sorcerer, warlock, or wizard spell that you can cast. You can now cast that spell at its lowest level without expending a spell slot.</td></tr>
+      <tr><td>Boon of Spell Recall</td><td>You can cast any spell you know or have prepared without expending a spell slot. Once you do so, you can't use this boon again until you finish a long rest.</td></tr>
+      <tr><td>Boon of the Fire soul</td><td>You have immunity to fire damage. You can also cast burning hands (save DC 15) at will, without using a spell slot or any components.</td></tr>
+      <tr><td>Boon of the Night spirit</td><td>While completely in an area of dim light or darkness, you can become invisible as an action. You remain invisible until you take an action or a reaction.</td></tr>
+      <tr><td>Boon of the Stormborn</td><td>You have immunity to lightning and thunder damage. You can also cast thunderwave (save DC 15) at will, without using a spell slot or any components.</td></tr>
+      <tr><td>Boon of the Unfettered</td><td>You have advantage on ability checks made to resist being grappled. In addition, you can use an action to automatically escape a grapple or free yourself of restraints of any kind.</td></tr>
+      <tr><td>Boon of Truesight</td><td>You have truesight out to a range of 60 feet.</td></tr>
+      <tr><td>Boon of Undetectability</td><td>You gain a +10 bonus to Dexterity (Stealth) checks, and you can't be detected or targeted by divination magic, including scrying sensors.</td></tr>
+    </table>
+    <table id="PrimalBeastTable" style="display:none">
+      <tr><td>Bee Hind</td><td>You stick slightly to everything you touch and you have disadvantage on anything that requires a light touch</td></tr>
+      <tr><td>Cawillopard</td><td>Tiny ethereal spiders skitter across your body. You have disadvantage on any check you make to sooth another creature</td></tr>
+      <tr><td>Chondrofeyr</td><td>You glow internally and cast dim light in a 5-foot radius and you are unable to hid in dim-light or darkenss</td></tr>
+      <tr><td>Cylchu</td><td>You smell of rot and leave fungus in your wake and creatures have advantage to track you</td></tr>
+      <tr><td>Urpine</td><td>You constantly have the feeling of leaves caught in your throat and you have disadvantage on any check that requires clear speach</td></tr>
+      <tr><td>Solaris</td><td>Your body weight is effected by the severity of the sun at the current time, on a clear midday your have disadvantage on resisting grappled, at midnight or similar your speed is reduced by 5 feet</td></tr>
+      <tr><td>Quills</td><td>Feathers sprout from your body cycling in severity with the phases of the moon</td></tr>
+      <tr><td>Eyes</td><td>An extra eye will apear fo an indeterminate amount of time somewhere on your body. You have limited line of sight from it while it exists</td></tr>
+      <tr><td>Stone</td><td>At sunrise every day, a part of your body turns to stone for an hour. Roll 1d20; on a 1 you are restrained for the duration</td></tr>
+      <tr><td>Formless</td><td>Whenever you remain still for more than a minute your bones begin to gel. Your speed becomes 10 feet and you don't return to normal untill you move 30 feet</td></tr>
+      <tr><td>Blossom</td><td>Your skin turns slightly green and at noon every day you spend an hour staring into the sun, if you can see it. You have no recollection of this time but if you complete the hour uninterupted you regain 1 hitpoint</td></tr>
+      <tr><td>Cry of the Wild</td><td>Whenever anyone else speaks, all you hear is the shrieks and howls of animals.</td></tr>
     </table>
   </body>
 </html>
